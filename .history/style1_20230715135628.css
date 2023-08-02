@@ -1,0 +1,214 @@
+body {
+    min-height: 100vh;
+}
+.one {
+    background-image: url(https://images.unsplash.com/photo-1513297887119-d46091b24bfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    background: linear-gradient(0.25turn, #F5F5F5, #9BA4B4, #9a9b9c);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 -1px rgba(207, 202, 202, 0.952), 0 0 5px rgb(47, 128, 105), 0 0 8px rgb(197, 194, 194);
+}
+.phonetext {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.christmas {
+    border: #a78e05 1px solid;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 3px #eee6c1, 0 0 8px #a78e05;
+}
+
+h4 {
+    font-size: 40px;
+    background: linear-gradient(0.25turn, #faeb19, #eee6c1, #a78e05);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 3px #eee6c1, 0 0 8px #a78e05;
+}
+
+.days, .minutes, .hours, .seconds {
+    font-size: 60px;
+    background: linear-gradient(0.25turn, #faeb19, #eee6c1, #a78e05);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 3px #eee6c1, 0 0 8px #a78e05;
+}
+
+.light {
+    border: none;
+    box-shadow: none;
+    transition: 1s;
+}
+
+button {
+    background: none;
+    border: none;
+    color: #a78e05;
+    box-shadow: 0 0 3px #eee6c1, 0 0 8px #a78e05;
+    margin: 50px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.play {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.pause {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none;
+}
+
+.pausebtn {
+    display: block;
+}
+
+.playbtn {
+    display: none;
+}
+
+
+.two{
+    background-image: url(https://images.unsplash.com/photo-1576344333128-4682ea1e9970?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: ease-in 1s;
+    background-color: #562B08;
+}
+
+.green {
+    background: linear-gradient(0.25turn, #0c5e02, #caecc1, #1d5c0e);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 3px #228803, 0 0 8px #afe69f;
+    transition: ease-in 1s;
+}
+
+.zero {
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    transition: ease-in 1s;
+}
+
+.h3two {
+    background: linear-gradient(0.25turn, #0c5e02, #caecc1, #1d5c0e);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 3px #228803, 0 0 8px #afe69f;
+    transition: ease-in 1s;
+}
+
+.h4two {
+    background: linear-gradient(0.25turn, #0c5e02, #caecc1, #1d5c0e);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 3px #228803, 0 0 8px #afe69f;
+    transition: ease-in 1s;
+}
+
+.btntwo {
+    color: #0c5e02;
+    box-shadow: 0 0 3px #228803, 0 0 8px #afe69f;
+    transition: ease-in 1s;
+}
+
+.containertwo {
+    height:57vh;
+    align-items: flex-end;
+    justify-content: center;
+    transition: ease-in 1s;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Molle:400i");
+body {
+  margin: 0;
+  background-color: #1f263b;
+}
+
+.content {
+  max-width: 70%;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.particles-js-canvas-el {
+    min-height: 100vh;
+}
+
+@media all and (max-width: 630px){
+
+    body {
+        min-height: 250vh;
+    }
+    .container {
+        height:150vh;
+    }
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .particles-js-canvas-el {
+        min-height: 250vh;
+    }
+      
+
+}
